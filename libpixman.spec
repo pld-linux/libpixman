@@ -96,7 +96,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog* README
+%doc AUTHORS COPYING ChangeLog* NEWS README
 %attr(755,root,root) %{_libdir}/lib*.so.*.*.*
 
 %files devel
