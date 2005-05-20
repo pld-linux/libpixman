@@ -1,12 +1,12 @@
 Summary:	Pixel manipulation library
 Summary:	Biblioteka operacji na pikselach
 Name:		libpixman
-Version:	0.1.4
+Version:	0.1.5
 Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
-# Source0-md5:	b66deb6d2dc4e2e74ed730c78e3bddac
+# Source0-md5:	756107dd2b23553df2f85cd92cab82d5
 URL:		http://cairographics.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
