@@ -27,22 +27,22 @@ libic was a generic image compositing library. libic provided
 Porter/Duff compositing of images and implicit mask generation for
 geometric primitives including trapezoids, triangles, and rectangles.
 
-%description -l pl
-libpixman to biblioteka do operacji na pikselach. Jest po³±czeniem
+%description -l pl.UTF-8
+libpixman to biblioteka do operacji na pikselach. Jest poÅ‚Ä…czeniem
 libpixregion i libic.
 
-libpixregion by³a ogóln± bibliotek± do przetwarzania obszarów
-pikselowych. Obszar pikselowy (PixRegion) to zbiór prostok±tów
-ograniczonych Y-X pokrywaj±cych ¿±dany obszar.
+libpixregion byÅ‚a ogÃ³lnÄ… bibliotekÄ… do przetwarzania obszarÃ³w
+pikselowych. Obszar pikselowy (PixRegion) to zbiÃ³r prostokÄ…tÃ³w
+ograniczonych Y-X pokrywajÄ…cych Å¼Ä…dany obszar.
 
-libic by³a ogóln± bibliotek± mieszania obrazów. libic udostêpnia³a
-mieszanie obrazów metod± Portera-Duffa oraz po¶rednie generowanie
-masek dla prymitywów geometrycznych obejmuj±cych trapezoidy, trójk±ty
-i prostok±ty.
+libic byÅ‚a ogÃ³lnÄ… bibliotekÄ… mieszania obrazÃ³w. libic udostÄ™pniaÅ‚a
+mieszanie obrazÃ³w metodÄ… Portera-Duffa oraz poÅ›rednie generowanie
+masek dla prymitywÃ³w geometrycznych obejmujÄ…cych trapezoidy, trÃ³jkÄ…ty
+i prostokÄ…ty.
 
 %package devel
 Summary:	Development files for libpixregion
-Summary(pl):	Pliki dla programistów do biblioteki libpixregion
+Summary(pl.UTF-8):   Pliki dla programistÃ³w do biblioteki libpixregion
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	libic-devel
@@ -52,13 +52,13 @@ Obsoletes:	slim
 %description devel
 This package contains development files for libpixregion library.
 
-%description devel -l pl
-Ten pakiet zawiera pliki dla programistów korzystaj±cych z biblioteki
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki dla programistÃ³w korzystajÄ…cych z biblioteki
 libpixregion.
 
 %package static
 Summary:	Static libpixman library
-Summary(pl):	Statyczna biblioteka libpixman
+Summary(pl.UTF-8):   Statyczna biblioteka libpixman
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Obsoletes:	libic-static
@@ -67,8 +67,8 @@ Obsoletes:	libpixregion-static
 %description static
 This package contains static libpixman library.
 
-%description static -l pl
-Ten pakiet zawiera statyczn± wersjê biblioteki libpixman.
+%description static -l pl.UTF-8
+Ten pakiet zawiera statycznÄ… wersjÄ™ biblioteki libpixman.
 
 %prep
 %setup -q
