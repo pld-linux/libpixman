@@ -42,7 +42,7 @@ i prostokąty.
 
 %package devel
 Summary:	Development files for libpixregion
-Summary(pl.UTF-8):   Pliki dla programistów do biblioteki libpixregion
+Summary(pl.UTF-8):	Pliki dla programistów do biblioteki libpixregion
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	libic-devel
@@ -58,7 +58,7 @@ libpixregion.
 
 %package static
 Summary:	Static libpixman library
-Summary(pl.UTF-8):   Statyczna biblioteka libpixman
+Summary(pl.UTF-8):	Statyczna biblioteka libpixman
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Obsoletes:	libic-static
